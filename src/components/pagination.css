@@ -1,0 +1,61 @@
+.pagi-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 1rem;
+}
+
+.btn {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #0d6efd;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  font-size: 1.25rem;
+  color: #0d6efd;
+}
+
+.active-page {
+  background-color: #0d6efd;
+  color: #eee;
+}
+
+.delete {
+  position: absolute;
+  left: 0;
+}
+
+.delete .btn {
+  border-radius: 2rem;
+  border: 1px solid #333;
+  padding: 0.5rem;
+  background-color: #d11a2a;
+  color: #eee;
+}
+
+.page-select,
+.page-next,
+.page-prev,
+.pages {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.disabled {
+  border-color: lightgray;
+  color: lightgrey;
+  cursor: not-allowed;
+}
+
+.page-icon {
+  pointer-events: none;
+}

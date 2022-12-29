@@ -1,0 +1,12 @@
+.edit-input {
+  padding: 0.25rem 0.5rem;
+  outline: none;
+}
+
+.saveIcon {
+  fill: #198754;
+}
+
+.cancelIcon {
+  stroke: #dc3545;
+}

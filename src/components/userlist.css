@@ -1,0 +1,63 @@
+.user-titles,
+.user {
+  padding: 1.25rem 0.75rem;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  width: 100%;
+  font-weight: 700;
+  gap: 0.5rem;
+}
+.user-all-checkbox,
+.user-checkbox {
+  display: flex;
+  justify-content: flex-start;
+  width: 16%;
+}
+
+.user-all-checkbox input,
+.user-checkbox input {
+  cursor: pointer;
+  width: 1rem;
+}
+
+.title,
+.user-data {
+  text-align: left;
+  width: 20%;
+  word-wrap: break-word;
+}
+
+.title:nth-child(3),
+.user-data:nth-child(3) {
+  width: 24%;
+}
+
+.action {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.action-icon {
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+}
+
+.trash {
+  stroke: #d11a2a;
+}
+
+.action-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  /* paddin */
+}
+
+.user {
+  font-weight: 400;
+}
+
+.checked {
+  background-color: #eee;
+}
